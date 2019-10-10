@@ -1,0 +1,33 @@
+semelhante ao "uber pool": na deslocação de A para B outras pessoas são informadas e caso o seu destino fique entre
+estes 2 pontos, pode "juntar-se" à viagem. 
+
+nota: a viagem pode ser única ou uma rotina.
+
+requisitos:
+	
+	1.Efetuar o aluguel de uma ou várias viagens pelo cliente 
+
+	2. registra a data e a hora da locação, ou outras informações. (ANTES)
+
+	3.Atualiza as informações do veículo no sistema.
+	 ex: qd marca a viagem o condutor india que tem 4 assentos disponíveis,
+	     qd 1 cliente aluga, o contador decrementa.
+
+	4. registra a quantia paga pela deslocação, a data e a hora. (DEPOIS)
+
+	5.Armazenamento dos dados dos passageiros e condutor (clientes) para 
+	facilitar a realização de alugueis de veículos e pagamentos.
+
+	6.O sistema deve contribuir ecológicamente.
+	ex: incentivo fiscal: os condutores de carros a combustível fóssil pagam 15% taxa, os elétricos apenas 7% 
+
+	7.O preço a pagar pela viagem deve ser o mais realista possível. (posível solução: usar a API da michelin)
+
+	8. interface gráfica intuitiva (friendly user interface)
+
+	9. segurança dos dados e operações (pagamentos online, confidencialidade dos dados)
+		vantagem: assegurar que não seja possível "hackear" a localização da pessoa
+		          assegurar que o condutor receba a quantia do aluger
+		          o condutor é obrigado a apresentar o comprovativo de inspeção do carro 
+
+
