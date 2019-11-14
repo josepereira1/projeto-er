@@ -1,0 +1,46 @@
+Podemos fazer um entrevista rápida para um projeto da Universidade do Minho
+
+Saudações
+
+Podemos gravar esta entrevista?
+
+Quem somos?
+
+Apresentação do projeto ShareCar:
+	- Aplicação de partilha de carros/boleias
+	- Objetivo: minimizar os custos, utilizar
+	  de forma inteligente os recursos automóveis 
+      (EUA), contribuir para o meio
+	  ambiente (PRINCIPAL OBJETIVO!!!)
+	- EXEMPLO!!!
+
+Opinião sobre uma lista de amigos/conhecidos (Pois segundo inquéritos já feitos, as pessoas não estão à vontade com desconhecidos)
+
+Utiliza o carro regularmente para as suas deslocações?
+
+	Se sim, partilha o carro com outras pessoas, atualmente?
+
+Para deslocações curtas (3km), utilizaria aplicação?
+
+Que funcionalidades achava interessantes que a aplicação tivesse?
+
+	[Se o entrevistado não conseguir arranjar exemplos]
+
+	Preferia o pagamento pela aplicação ou as próprias pessoas escolherem o método de pagamento pessoalmente, ou ambos?
+
+	Classificações das pessoas? Concorda ou discorda?
+
+	Filtros sobre as pessoas com quem vais partilhar carro? (Ex: as raparigas por vezes preferem partilhar o carro com outras raparigas)
+
+	Já utilizou aplicações do género: uber, blablacar, ...
+
+	Acha importante a aplicação estar disponível para: Web, android, IOS, ...
+
+	Para questões de segurança (Ter a certeza das idades, sexo, etc ... ), o registo com os dados do Cartão de Cidadão, concorda ou não confiaria?
+
+
+Obrigado pelo seu contributo para o nosso projeto, continuação de uma boa tarde!
+
+
+
+

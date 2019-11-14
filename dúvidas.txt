@@ -1,0 +1,4 @@
+A aplicação disponibilizar o idioma português e inglês é um requisito não funcional cultural ?
+
+O requisito não funcional de aparência é para dizer que a interface gráfica é intuitiva, e que em 30 min ..., Mas isto não é também um requisito de usability?
+
