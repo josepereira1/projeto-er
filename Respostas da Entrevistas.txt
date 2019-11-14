@@ -1,0 +1,15 @@
+Respostas da intervistas:
+
+a)Permição da gravação de entervista?
+Não concedido.
+b)Utilizaria a aplicação com conhecidos ou desconhecidos:
+Tanto faz.
+c)Qual São as funções Addicional que gostarias que uma aplicação de boleias tivesse: 
+1.A aplicação deve permetir optinar acerca do condutor(ou seja alem dos ratings, uma sessão de cometarios).
+2.Especificar a escala que sera per corrida e uma estimativa da hora de chegada
+3.Permetir escolher um lugar Apropriaddo.
+
+Sugestões:
+
+1.A viagem deve ser segura e confortavel o mais possivel. (Saber o modelo da viatura e os Specs)imagem do interior da viatura.
+2.O condutor deve ser responsavel.
