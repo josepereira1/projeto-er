@@ -1,65 +1,46 @@
 \begin{itemize}
-    \item O utilizador regista-se na aplicação. - FEITO
-    \item O utilizador pode assumir o papel de: - FEITO
-    \begin{itemize}
-        \item motorista
-        \item passageiro
-        \item motorista e passageiro
-    \end{itemize}{}
-
-    \item O utilizador tem uma classificação.
-    
-    \item O utilizador autentica-se na aplicação.
-    \item O utilizador pode sair da aplicação.
+    \item O consumidor regista-se na aplicação. ======> FEITO
     
     \item O utilizador tem uma conta com as suas informações.
-    \item O utilizador pode editar as informações da sua conta.
-    \item O utilizador tem uma lista de utilizadores.
-    \item O utilizador pode adicionar à sua lista utilizadores, outros utilizadores.
-    \item O utilizador pode remover utilizadores, da sua lista utilizadores.
-    
-    
-    \item O utilizador pode criar uma deslocação regular de ida e volta.
-    \item O utilizador pode criar uma deslocação regular apenas de ida.
-    \item O utilizador pode criar uma deslocação não regular de ida e volta.
-    \item O utilizador pode criar uma deslocação não regular de ida.
-    \item O utilizador pode criar uma deslocação não regular, como motorista.
-    \item O utilizador pode criar uma deslocação não regular, como passageiro.
-    \item O utilizador pode criar deslocações regulares, como motorista.
-    \item O utilizador pode criar deslocações regulares, como passageiro.
-    \item O utilizador pode criar deslocações regulares, como motorista e passageiro.
-    
-    \item O utilizador tem uma lista de deslocações regulares e deslocações não regulares.
-    \item O utilizador pode remover uma deslocação não regular criada pelo próprio utilizador.
-    \item O utilizador pode remover uma deslocação regular criada pelo próprio utilizador.
-    \item O utilizador pode editar uma deslocação não regular criada pelo próprio utilizador.
-    \item O utilizador pode editar uma deslocação regular criada pelo próprio utilizador.
-    
-    \item O utilizador pode fazer um pedido para entrar numa deslocação não regular de outro utilizador.
-    \item O utilizador pode fazer um pedido para entrar  numa deslocação regular de outro utilizador.
-    \item O utilizador pode escolher o lugar no veículo depois ser aceite numa deslocação.
-    \item O utilizador pode, nas deslocações não regulares criadas por ele, aceitar o pedido de outro utilizador para entrar nessa deslocação.
-    \item O utilizador pode, nas deslocações regulares criadas por ele, aceitar o pedido de outro utilizador para entrar nessa deslocação.
-    \item O utilizador pode, nas deslocações não regulares criadas por ele, não aceitar o pedido de outro utilizador para entrar nessa deslocação.
-    \item O utilizador pode, nas deslocações regulares criadas por ele, não aceitar o pedido de outro utilizador para entrar nessa deslocação.
-    \item O utilizador é notificado quando há alterações nas informações de uma deslocação não regular em que está incluído. 
-    \item O utilizador é notificado quando há alterações nas informações de uma deslocação regular em que está incluído.
-    \item O utilizador pode colocar a sua lista de deslocações vísivel para qualquer utilizador.
-    \item O utilizador pode colocar a sua lista de deslocações apenas visível para a sua lista de utilizadores.
-    \item O utilizador, no fim de uma deslocação, atribuí uma classificação a todos os utilizadores participantes dessa deslocação, excepto a classificação de ele próprio.
-    \item O utilizador, no fim de uma deslocação, pode atribur comentários a todos os utilizadores participantes dessa deslocação, excepto a classificação de ele próprio.
-    \item O utilizador pode procurar deslocações através de filtros.
-    \item O utilizador paga a deslocação no momento que entra para uma deslocação de outro utilizador.
-    \item O utilizador poderá pedir \emph{refund}, depois de entrar numa deslocação de outro utilizador.
-    \item Os utilizadores podem fazer no máximo 5 \emph{refunds}.
-    \item O utilizador pode registar um ou mais cartões de crédito à sua conta.
-    \item O utilizador pode vincular uma conta Paypal à sua conta.
-\end{itemize}
 
-\section{Requisitos do Produto}
+    \item O utilizador edita as informações da sua conta.
+    
+    \item O consumidor adiciona à sua lista de consumidores, outros consumidores.
+    
+    \item O consumidor remove consumidores, da sua lista consumidores.
+
+    \item O consumidor cria uma deslocação regular ou uma deslocação não regular.
+    
+    \item O consumidor tem uma lista de deslocações regulares e deslocações não regulares.
+
+    \item O consumidor remove uma deslocação criada pelo próprio.
+
+    \item O consumidor edita uma deslocação criada pelo próprio.
+    
+    \item O consumidor faz um pedido para entrar numa deslocação de outro consumidor.
+
+    \item O consumidor escolhe o lugar no veículo numa deslocação.
+
+    \item O consumidor, nas deslocações criadas por ele, aceita ou não aceita o pedido de outro consumidor para entrar nessa deslocação.
+
+    \item O consumidor é notificado quando há alterações na deslocação em que está incluído.
+
+    \item O consumidor define a visibilidade da sua lista de deslocações para restantes consumidores.
+   
+    \item O consumidor, no fim de uma deslocação, atribuí uma classificação a todos os consumidores participantes dessa deslocação, excepto a classificação de ele próprio.
+
+    \item O consumidor, no fim de uma deslocação, atribuí comentários a todos os consumidores participantes dessa deslocação, excepto a classificação de ele próprio.
+
+    \item O consumidor procura deslocações.
+
+
+
+
+
+
+\section{Requisitos do Sistema}
 \begin{itemize}
-    \item A aplicação determina o custo da deslocação.
-    \item A aplicação notifica alterações nas informações de uma deslocação a todos os utilizadores integrados nessa deslocação.
-    \item A aplicação sugere deslocações ao utilizador de acordo com o histórico de uso do mesmo.
+    \item O sistema estima o custo da deslocação.
+    \item O sistema sugere deslocações ao consumidor de acordo com o histórico de uso do mesmo.
     
 \end{itemize}{}
