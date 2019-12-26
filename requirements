@@ -1,3 +1,6 @@
+//	FUNCIONAIS DE UTILIZADOR
+
+
 \begin{itemize}
     \item O consumidor regista-se na aplicação. ======> FEITO
     
@@ -36,11 +39,68 @@
 
 
 
-
+//	FUNCIONAIS DE SISTEMA
 
 \section{Requisitos do Sistema}
 \begin{itemize}
     \item O sistema estima o custo da deslocação.
     \item O sistema sugere deslocações ao consumidor de acordo com o histórico de uso do mesmo.
     
+\end{itemize}{}
+
+
+
+
+
+//	NÃO FUNCIONAIS
+
+\chapter{Requisitos Não Funcionais}
+Neste capítulo são apresentados os requisitos não funcionais
+\section{Requisitos de Aparência}
+\begin{itemize}
+    \item 
+\end{itemize}{}
+
+\section{Requisitos de Usabilidade}
+\begin{itemize}
+    \item A aplicação é intuitiva, na medida em que ao fim 30 minutos, 85\% dos utilizadores sabem utilizar 90\% das funcionalidades.
+\end{itemize}{}
+
+\section{Requisitos de Performace}
+\begin{itemize}
+    \item A aplicação responderá a qualquer pedido em menos de 5 segundos.
+    \item A aplicação tem que estar disponível, 24 horas por dia, 365 dias por ano.
+    \textbf{NOTA: como aprendemos em ICD ter isto é impossivel, por isso podemos dizer 99\% disponivel ou qualquer coisa assim}
+\end{itemize}{}
+
+\section{Requisitos Operacionais}
+\begin{itemize}
+\item
+\end{itemize}{}
+
+\section{Requisitos de Manutenção e Suporte}
+\begin{itemize}
+    \item A aplicação terá de permitir no futuro serem adicionadas novas funcionalidades.
+    \item Existe um apoio de suporte ao utilizador, 24 horas por dia, 365 dias por ano.
+\end{itemize}{}
+
+\section{Segurança}
+\begin{itemize}
+    \item Dados do utilizador, como número de cartão de cidadão, não serão visíveis para outros utilizadores.
+    \item Dados pessoais serão solicitados, processados, armazenados e removidos de acordo com o Regulamento Geral de Proteção de Dados (RGPD).
+    \item Toda a comunicação entre a aplicação e os servidores será feita através de canal seguro (HTTPS).
+    \item Todas as transações financeiras será feitas de forma segura, de acordo com o \textit{Payment Card Industry Data Security Standard} (PCI-DSS).
+\end{itemize}{}
+
+\section{Requisitos de Cultura}
+\begin{itemize}
+    \item A aplicação deve permitir o idioma Português e Inglês.
+    \item A aplicação deve seguir os melhores padrões de acessibilidade, a fim de garantir seu uso por pessoas que possuem capacidades reduzidas ou necessidades especiais.
+    \item A aplicação apresenta os cálculos monetários na moeda escolhida pelo utilizador.
+\end{itemize}{}
+
+\section{Requisitos Legais}
+\begin{itemize}
+    \item Os pagamentos feitos na aplicação terão incluídos o imposto do país onde a mesma estiver a ser utilizada.
+    \item Os utilizadores terão acesso às facturas de todo pagamento feito na aplicação.
 \end{itemize}{}
