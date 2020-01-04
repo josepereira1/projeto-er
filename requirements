@@ -2,39 +2,39 @@
 
 
 \begin{itemize}
-    \item O consumidor regista-se na aplicação. ======> FEITO
+    \item O viajante regista-se na aplicação. ======> FEITO
+
+    \item O utilizador edita as informações da sua conta. ======> FEITO
+
+    \item O viajante consulta perfis de viajantes. ======> FEITO
     
-    \item O utilizador tem uma conta com as suas informações.
-
-    \item O utilizador edita as informações da sua conta.
+    \item O viajante adiciona à sua lista de viajantes, outros viajantes. ======> FEITO
     
-    \item O consumidor adiciona à sua lista de consumidores, outros consumidores.
+    \item O viajante remove consumidores, da sua lista consumidores. ======> FEITO
+
+    \item O viajante cria uma deslocação regular ou uma deslocação não regular. ======> FEITO
     
-    \item O consumidor remove consumidores, da sua lista consumidores.
+    \item O viajante consulta a sua lista de deslocações regulares e deslocações não regulares. ======> FEITO
 
-    \item O consumidor cria uma deslocação regular ou uma deslocação não regular.
+    \item O viajante remove uma deslocação criada pelo próprio. ======> FEITO
+
+    \item O viajante edita uma deslocação criada pelo próprio. ======> FEITO
     
-    \item O consumidor tem uma lista de deslocações regulares e deslocações não regulares.
+    \item O viajante faz um pedido para entrar numa deslocação de outro viajante. ======> FEITO
 
-    \item O consumidor remove uma deslocação criada pelo próprio.
+    \item O viajante escolhe o lugar no veículo numa deslocação. ======> NÃO FOI COLOCADO, POIS ESTÁ INSERIDO NO ENTRAR EM DESLOCAÇÃO
 
-    \item O consumidor edita uma deslocação criada pelo próprio.
-    
-    \item O consumidor faz um pedido para entrar numa deslocação de outro consumidor.
+    \item O viajante, nas deslocações criadas por ele, aceita ou não aceita o pedido de outro viajante para entrar nessa deslocação.  ======> FEITO
 
-    \item O consumidor escolhe o lugar no veículo numa deslocação.
-
-    \item O consumidor, nas deslocações criadas por ele, aceita ou não aceita o pedido de outro consumidor para entrar nessa deslocação.
-
-    \item O consumidor é notificado quando há alterações na deslocação em que está incluído.
-
-    \item O consumidor define a visibilidade da sua lista de deslocações para restantes consumidores.
+    \item O viajante define a visibilidade da sua lista de deslocações para restantes viajantes. ======> FEITO
    
-    \item O consumidor, no fim de uma deslocação, atribuí uma classificação a todos os consumidores participantes dessa deslocação, excepto a classificação de ele próprio.
+    \item O viajante, no fim de uma deslocação, atribuí uma classificação a todos os viajantes participantes dessa deslocação ======> FEITO
 
-    \item O consumidor, no fim de uma deslocação, atribuí comentários a todos os consumidores participantes dessa deslocação, excepto a classificação de ele próprio.
+    \item O viajante, no fim de uma deslocação, atribuí comentários a todos os viajantes participantes dessa deslocação, excepto a classificação de ele próprio.
 
     \item O consumidor procura deslocações.
+
+    \item faltam alguns
 
 
 
@@ -43,8 +43,9 @@
 
 \section{Requisitos do Sistema}
 \begin{itemize}
-    \item O sistema estima o custo da deslocação.
+    \item O sistema estima o custo da deslocação, antes da sua realização.
     \item O sistema sugere deslocações ao consumidor de acordo com o histórico de uso do mesmo.
+    \item O sistema notifica todos os intrevenientes de uma deslocação, quando há alterações nessa mesma deslocação.
     
 \end{itemize}{}
 
