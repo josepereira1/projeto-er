@@ -1,0 +1,764 @@
+\chapter{Requisitos Funcionais}
+
+\section{Requisitos do Utilizador}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline 
+    Id do Requisito & 1 \\
+
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC & Registar Conta \\
+    
+    \hline
+    Descrição & O viajante regista-se na aplicação. \\
+    
+    \hline
+    Justificação do Requisito &  O viajante necessita de se identificar na aplicação para utilizar as funcionalidades da mesma e se distinguir de outros viajantes. \\
+    \hline
+    Origem do Requisito & Administração da empresa X. \\
+    
+    \hline
+    Critério de Ajuste & A aplicação terá um formulário com os campos necessários para o registo do viajante, sendo os dados guardados numa base de dados.\\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 1.} \label{tab:r1}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 2  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Editar Perfil\\
+    
+    \hline
+    Descrição & O Utilizador edita o seu perfi. \\
+    
+    \hline
+    Justificação do Requisito & O Utilizador pode necessitar de modificar as suas informações do perfil.  \\
+    
+    \hline
+    Origem do Requisito & Administração da empresa X \\
+    
+    \hline
+    Critério de Ajuste & O menu principal da aplicação terá a opção de editar o perfil do próprio utilizador, e as alterações efetuadas serão guardadas na base de dados.\\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 2.} \label{tab:r3}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 3  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Consultar perfil\\
+    
+    \hline
+    Descrição & O viajante consulta perfis de viajantes. \\
+    
+    \hline
+    Justificação do Requisito & O viajante necessita de consultar o prórpio perfil, bem como o perfil de outros viajantes. \\
+    
+    \hline
+    Origem do Requisito & Administração da empresa X \\
+    
+    \hline
+    Critério de Ajuste & No menu principal, existe uma opção para se escrever o nome ou \emph{username}, para se procurar o perfil desse viajante, ou na lista de viajantes. \\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 3.} \label{tab:r3}
+\end{center}
+\end{table}
+
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 4  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Adicionar Viajante à lista\\
+    
+    \hline
+    Descrição & O viajante adiciona à sua lista de viajantes, outros viajantes. \\
+    
+    \hline
+    Justificação do Requisito & Alguns viajantes necessitam de guardar outros viajantes que conhecem, para poderem procurar ou partilhar as suas deslocações com os mesmos.  \\
+    
+    \hline
+    Origem do Requisito & Administração da empresa X \\
+    
+    \hline
+    Critério de Ajuste & No menu principal, existirá uma opção onde se poderá consultar a lista de viajantes. Desta forma, também existirá a opção de adicionar mais viajantes a essa lista, que por suas vez é guardada na base de dados.\\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 4.} \label{tab:r3}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 5  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Remover Viajante da lista\\
+    
+    \hline
+    Descrição & O viajante remove viajantes, da sua lista viajantes. \\
+    
+    \hline
+    Justificação do Requisito & Alguns viajantes necessitam de remover outros viajantes da sua lista de viajantes por diversos motivos.  \\
+    
+    \hline
+    Origem do Requisito & Administração da empresa X \\
+    
+    \hline
+    Critério de Ajuste & No menu principal, existirá uma opção onde se poderá consultar a lista de viajantes. Desta forma, também existirá a opção de remover viajantes dessa lista, que por suas vez, a mesma é atualiazada na base de dados.\\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 5.} \label{tab:r3}
+\end{center}
+\end{table}
+
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 6  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Criar uma deslocação\\
+    
+    \hline
+    Descrição & O viajante cria uma deslocação regular ou uma deslocação não regular. \\
+    
+    \hline
+    Justificação do Requisito & Sendo as deslocações, o objetivo principal, faz sentido que sejam os viajantes a criá-las, podendo ser estas regulares, ou seja, que se realizam periódicamente em determinadas datas, e não regulares, ou seja, que ocorrem uma única vez.  \\
+    
+    \hline
+    Origem do Requisito & Administração da empresa X \\
+    
+    \hline
+    Critério de Ajuste & No menu principal existirá uma opção para criar deslocações, após se carregar na mesma, aparece um formulário, para preencher os vários campos necessários, tais como ser regular ou não regular, datas, etc.\\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 6.} \label{tab:r3}
+\end{center}
+\end{table}
+
+
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 7  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Consultar Deslocações\\
+    
+    \hline
+    Descrição & O viajante consulta listas de deslocações. \\
+    
+    \hline
+    Justificação do Requisito & Sendo as deslocações, o objetivo principal, faz sentido, que os viajantes possam consultar as suas deslocações e de outros viajantes.  \\
+    
+    \hline
+    Origem do Requisito & Administração da empresa X \\
+    
+    \hline
+    Critério de Ajuste & No menu principal, existe uma opção para consultar a lista de deslocações, sendo estas as criadas pelo próprio viajante, ou nas que este vai partipar. Um viajante pode consultar a lista de deslocações de outro viajante no seu perfil.\\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 7.} \label{tab:r3}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 8  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Remover Deslocação\\
+    
+    \hline
+    Descrição & O viajante remove uma deslocação criada pelo próprio. \\
+    
+    \hline
+    Justificação do Requisito & Na ocorrência da impossibilidade de efetuar a deslocação, atempadamente o criador da deslocação, pode remover a mesma.  \\
+    
+    \hline
+    Origem do Requisito & Administração da empresa X \\
+    
+    \hline
+    Critério de Ajuste & No menu principal, existe uma opção para consultar a lista de deslocações, após esta consulta, selecionando uma deslocação, existe a opção de remover essa deslocação. No entanto, o viajante só poderá remover deslocações que tenham sido criadas pelo próprio.\\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 8.} \label{tab:r3}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 9  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Editar Deslocação\\
+    
+    \hline
+    Descrição & O viajante edita uma deslocação criada pelo próprio. \\
+    
+    \hline
+    Justificação do Requisito & O criador da deslocação pode modificar as informações associadas à mesma, tais como: data e hora de ínicio, etc.\\
+    
+    \hline
+    Origem do Requisito & Administração da empresa X \\
+    
+    \hline
+    Critério de Ajuste & No menu principal, existe uma opção para consultar a lista de deslocações. Nessa lista, o viajante, seleciona-se uma deslocação que tenha sido criada pelo próprio, e existirá a opção de editar essa deslocação, onde ocorrerá um formulário, com os campos que podem ser alterados. Importante referir, que só será possível editar deslocações até dois dias antes da sua realização.\\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 9.} \label{tab:r3}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 10  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Fazer Pedido\\
+    
+    \hline
+    Descrição & O viajante faz um pedido para entrar numa deslocação de outro viajante. \\
+    
+    \hline
+    Justificação do Requisito & O viajante necessita de fazer pedido para entrar nas deslocações de outros viajantes. No entanto, após efetuar o pedido, o viajante, fica à espera da resposta, do criador da deslocação. \\
+    
+    \hline
+    Origem do Requisito & Administração da empresa X \\
+    
+    \hline
+    Critério de Ajuste & Quando o viajante consulta as deslocações de outros viajantes, ao selecionar uma dessas deslocações, tem a opção de fazer pedido para entrar nas mesmas. \\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 10.} \label{tab:r3}
+\end{center}
+\end{table}
+
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 11  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Responder a Pedido\\
+    
+    \hline
+    Descrição & O viajante, nas deslocações criadas por ele, aceita ou não aceita o pedido de outro viajante para entrar nessa deslocação. \\
+    
+    \hline
+    Justificação do Requisito & Visto que são feitos pedidos para se entrar em deslocações, necessita-se de uma aprovação das mesmas. Deste modo, decidiu-se que o criador das deslocações, aceita ou rejeita esses pedidos.  \\
+    
+    \hline
+    Origem do Requisito & Administração da empresa X \\
+    
+    \hline
+    Critério de Ajuste & Quando o viajante consulta as deslocações de outros viajantes, ao selecionar uma dessas deslocações, tem a opção de fazer pedido para entrar nas mesmas. \\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 11.} \label{tab:r3}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 12  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Definir Visibilidade\\
+    
+    \hline
+    Descrição & O viajante define a visibilidade da sua lista de deslocações para restantes viajantes. \\
+    
+    \hline
+    Justificação do Requisito & Através dos inquéritos e entrevistas, precebeu-se que os viajantes presam pela sua privacidade. Deste modo, os mesmo decidem, quem poderá ver as suas deslocações.  \\
+    
+    \hline
+    Origem do Requisito & Inquéritos realizados aos alunos da Universidade do Minho \\
+    
+    \hline
+    Critério de Ajuste & O Viajante ao consultar a sua lista de deslocações, existe a opção de visibilidade, onde se poderá definir, quem pode consultr essa mesma lista.  \\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 12.} \label{tab:r3}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 13  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Classificar Viajante\\
+    
+    \hline
+    Descrição & O viajante, no fim de uma deslocação, atribuí uma classificação a todos os viajantes participantes dessa deslocação. \\
+    
+    \hline
+    Justificação do Requisito & Analisando aplicações idênticas a estas, verfica-se a existência de uma forma de avaliação da atitude dos utilizadores nas aplicações. Do mesmo, nas entrevistas realizadas, também foi sempre uma sugestão recorrente a utilização da classificação para essas avaliações.  \\
+    
+    \hline
+    Origem do Requisito & Entrevistas e Inquéritos realizados aos alunos da Universidade do Minho \\
+    
+    \hline
+    Critério de Ajuste & Quando o criador assinalar a finalização da deslocação ou chegar-se à hora marcada como fim da deslocação, o criador e todos os intrevenientes dessa mesma deslocação, vão receber na aplicação uma questionário, para classificar o comportamento de cada viajante.  \\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 13.} \label{tab:r3}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 14  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Inserir Comentário\\
+    
+    \hline
+    Descrição & O viajante, no fim de uma deslocação, atribuí comentários a todos os viajantes participantes dessa deslocação.\\
+    
+    \hline
+    Justificação do Requisito & Analisando aplicações idênticas a estas, verfica-se a existência de uma forma de avaliação da atitude dos utilizadores nas aplicações. Do mesmo, nas entrevistas realizadas, também foi sempre uma sugestão recorrente a utilização de comentários para essas avaliações.  \\
+    
+    \hline
+    Origem do Requisito & Entrevistas e Inquéritos realizados aos alunos da Universidade do Minho \\
+    
+    \hline
+    Critério de Ajuste & Quando o criador assinalar a finalização da deslocação ou chegar-se à hora marcada como fim da deslocação, o criador e todos os intrevenientes dessa mesma deslocação, irão ter trinta minutos, para poderem adicionar comentários sobre o comportamento de cada viajante.  \\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 14.} \label{tab:r3}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 15  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Procurar Deslocações\\
+    
+    \hline
+    Descrição & O viajante procura deslocações.\\
+    
+    \hline
+    Justificação do Requisito & Como o principal objetivo da aplicação é efetuar deslocações, é necessário fazer a procura das mesmas. \\
+    
+    \hline
+    Origem do Requisito & Addministração da empresa X\\
+    
+    \hline
+    Critério de Ajuste & No menu principal existe uma opção de procura por deslocações, onde se pode usar filtros (como por exemplo: origem, destino, datas, tipo de veículo, etc...), para facilitar essa procura.  \\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 15.} \label{tab:r3}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 16  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Sair de Deslocação\\
+    
+    \hline
+    Descrição & O viajante sair de uma deslocação.\\
+    
+    \hline
+    Justificação do Requisito & Do mesmo modo, que se permite que os viajantes entrem em deslocações, também necessita-se de permitir que os mesmos possam sair. \\
+    
+    \hline
+    Origem do Requisito & Entrevista com stackholders\\
+    
+    \hline
+    Critério de Ajuste & O viajante, ao consultar as deslocações em que vai participar, pode selecionar, uma dessas deslocações, para deixar de participar na mesma, existe a opção de sair.  \\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 16.} \label{tab:r3}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 17  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Consultar Estatística\\
+    
+    \hline
+    Descrição & O Administrador consulta número de Utilizadores.\\
+    
+    \hline
+    Justificação do Requisito & Entrevistas realizadas à administração da empresa X, percebeu-se a importância do número de utilizadores a aderir a projetos, para contribuição do meio ambiente. \\
+    
+    \hline
+    Origem do Requisito & Adminitração da empresa X\\
+    
+    \hline
+    Critério de Ajuste & No menu de administrador existe a opção para consultar o número de utilizadores.  \\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 17.} \label{tab:r3}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 17  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Consultar Estatística\\
+    
+    \hline
+    Descrição & O Administrador consulta número de deslocações.\\
+    
+    \hline
+    Justificação do Requisito & Entrevistas realizadas à administração da empresa X, percebeu-se a importância do número de deslocações, efetuadas, para efeitos estatísticos. \\
+    
+    \hline
+    Origem do Requisito & Adminitração da empresa X\\
+    
+    \hline
+    Critério de Ajuste & No menu de administrador existe a opção para consultar o número de deslocações.  \\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 17.} \label{tab:r3}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 18  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Consultar localizações\\
+    
+    \hline
+    Descrição & O Administrador consulta as localizações das deslocações, com mais ocorrências.\\
+    
+    \hline
+    Justificação do Requisito & Entrevistas realizadas à administração da empresa X, percebeu-se a importância da localização das deslocações que mais ocorrem, para se saber onde encontrar os utilizadores, para possíveis melhorias do produto no futuro. \\
+    
+    \hline
+    Origem do Requisito & Adminitração da empresa X\\
+    
+    \hline
+    Critério de Ajuste & No menu de administrador existe a opção para consultar as localizações das deslocações que mais ocorrem.  \\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 18.} \label{tab:r3}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 19  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Consultar localizações\\
+    
+    \hline
+    Descrição & O Administrador consulta as localizações das deslocações, com menos ocorrências.\\
+    
+    \hline
+    Justificação do Requisito & Entrevistas realizadas à administração da empresa X, percebeu-se a importância da localização das deslocações que menos ocorrem, para se saber onde é necessário investir em publicidade do produto, para maior aderência. \\
+    
+    \hline
+    Origem do Requisito & Adminitração da empresa X\\
+    
+    \hline
+    Critério de Ajuste & No menu de administrador existe a opção para consultar as localizações das deslocações que menos ocorrem.  \\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 19.} \label{tab:r3}
+\end{center}
+\end{table}
+
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 20  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Consultar Estatística\\
+    
+    \hline
+    Descrição & O Administrador consulta os custos totais de todas as deslocações.\\
+    
+    \hline
+    Justificação do Requisito & Entrevistas realizadas à administração da empresa X, percebeu-se a importância do cálculo dos custos totais das deslocações, para se ver o impacto monetário, que a aplicação teve nos utilizadores. Isto é, para efeitos estatísticos, perceber, o valor monetário, que foi poupado pelos utilizadores, versus o valor que gastariam infividualmente. \\
+    
+    \hline
+    Origem do Requisito & Adminitração da empresa X\\
+    
+    \hline
+    Critério de Ajuste & No menu de administrador existe a opção para consultar o valor dos custos de todas as deslocações.  \\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 20.} \label{tab:r3}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 21  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  Consultar Utilização\\
+    
+    \hline
+    Descrição & O Administrador consulta a utilização dos veículos.\\
+    
+    \hline
+    Justificação do Requisito & Entrevistas realizadas à administração da empresa X, percebeu-se a importância do cálculo da percentagem de utilização dos recursos dos veículos, isto é, o número de lugares utilizados, versus os lugares existentes. Na verdade, este cálculo, torna-se importante para se perceber o impacto do produto para a contribuição da utilização inteligente dos veículos. \\
+    
+    \hline
+    Origem do Requisito & Adminitração da empresa X\\
+    
+    \hline
+    Critério de Ajuste & No menu de administrador existe a opção para consultar a utilização dos veículos.  \\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 21.} \label{tab:r3}
+\end{center}
+\end{table}
+
+
+
+\section{Requisitos de Sistema}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 22  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  - \\
+    
+    \hline
+    Descrição & O sistema estima o custo da deslocação, antes da sua realização.\\
+    
+    \hline
+    Justificação do Requisito & Apesar de a forma de pagamento ficar à descrição dos intrevenientes da deslocação, a aplicação cálcula e sugere um valor para o custa da mesma, com base nos quilómetros e desgastes do veículo. \\
+    
+    \hline
+    Origem do Requisito & Entrevistas aos stackholders\\
+    
+    \hline
+    Critério de Ajuste & Quando uma deslocação é criada, o sistema, cálcula, com base nos quilómetros e tipo de estrada, bem como o tipo de veículo, combustível, entre outras métricas, para determinar o valor aproximado do custo dessa deslocação.   \\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 22.} \label{tab:r3}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 23  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  - \\
+    
+    \hline
+    Descrição & O sistema sugere deslocações ao consumidor de acordo com o histórico de uso do mesmo. \\
+    
+    \hline
+    Justificação do Requisito & Com base em algumas entrevistas aos stackholders, recorrentemente, umas das funcionalidades essenciais, seria a recomendação de deslocações com base no histório, pois, se se pensar num exemplo, um viajante que vá regularmente de Braga para o Porto, estará sempre interessado em possíveis deslocações que façam este trajeto. \\
+    
+    \hline
+    Origem do Requisito & Entrevistas aos stackholders\\
+    
+    \hline
+    Critério de Ajuste & No menu principal, aparecem sugestões de deslocações com base no histórico do utilizador. Desta forma, significa, que se guarda o histórico do viajante na base de dados da aplicação.   \\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 23.} \label{tab:r3}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+  \begin{tabularx}{\textwidth}{ | c | X | }
+    \hline
+    Id do Requisito & 24  \\
+    
+    \hline
+    Tipo de Requisito & Funcional \\
+    
+    \hline
+    Evento, BUC, PUC &  - \\
+    
+    \hline
+    Descrição & O sistema notifica todos os intrevenientes de uma deslocação, quando há alterações nessa mesma deslocação. \\
+    
+    \hline
+    Justificação do Requisito & Após o criador efetuar alterações nas informações de uma deslocação, torna-se importante, informar os intrevenientes, dessas mesmas alterações. Na verdade, com essas alterações a deslocação pode já não ser viável para os restantes intrevenientes. \\
+    
+    \hline
+    Origem do Requisito & Entrevistas aos stackholders\\
+    
+    \hline
+    Critério de Ajuste & Quando são efetuadas alterações numa deslocação, o sistema informa todos os intrevenientes, dessa alteração, ou seja, os mesmos recebem notificação, com avisos do sucedido. \\
+    
+    \hline
+  \end{tabularx}
+  \caption{Requisito 24.} \label{tab:r3}
+\end{center}
+\end{table}
+
+
